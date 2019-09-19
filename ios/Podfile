@@ -29,6 +29,10 @@ target 'StockApp' do
   pod 'Folly', :podspec => '../node_modules/react-native/third-party-podspecs/Folly.podspec'
 
 
+  pod 'RNFirebase', :path => '../node_modules/react-native-firebase'
+
+  pod 'react-native-video', :path => '../node_modules/react-native-video'
+
   target 'StockAppTests' do
     inherit! :search_paths
     # Pods for testing

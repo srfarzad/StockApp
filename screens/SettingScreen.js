@@ -29,6 +29,15 @@ export default class SettingScreen extends Component<Props> {
 
                 }}  />
 
+
+
+                <Button title='Play Video' onPress={()=> {
+
+                    this.props.navigation.navigate('VideoScreen')
+
+                }}  />
+
+
             </View>
 
         )
